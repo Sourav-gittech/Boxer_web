@@ -1,0 +1,2219 @@
+/* navbar section  */
+.navbar {
+    background-color: #020b00;
+    
+}
+
+.navbar .container .navbar-brand {
+    height: 50px;
+}
+
+.navbar .container .collapse ul li {
+    padding-left: 20px;
+}
+
+.navbar .container .collapse ul li img {
+    cursor: pointer;
+}
+
+.navbar .container .collapse ul li a {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.navbar .container .collapse ul li a:hover {
+    color: rgb(66, 177, 8);
+}
+
+/* body section  */
+body {
+    height: auto;
+}
+
+/* landing section  */
+.landing {
+    background-image: url(./images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgb(66, 177, 8);
+    background-blend-mode: hard-light;
+    width: 100%;
+    height: auto;
+    min-height: 745px;
+    position: relative;
+}
+
+.first-cover {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(66, 177, 8);
+    width: 100%;
+    height: 67%;
+    opacity: 0.3;
+    border: none;
+    z-index: 0;
+}
+
+.second-cover {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(66, 177, 8);
+    width: 100%;
+    height: 30%;
+    opacity: 0.8;
+    border: none;
+    z-index: 0;
+}
+
+.landing .container .row .col-12 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.landing .container .row .col-md-4 ul li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 170px;
+    line-height: 0.8;
+    color: rgb(118, 255, 95);
+}
+
+.landing .container .row .col-md-4 ul li:nth-child(1) {
+    color: #fff;
+    transform: rotate(90deg);
+}
+
+.landing .container .row .col-md-4 ul li:nth-child(2) {
+    color: #fff;
+    transform: rotate(90deg);
+}
+
+.landing .container .row .col-md-4 ul li:nth-child(3) {
+    transform: rotate(90deg);
+}
+
+.landing .container .row .col-md-4 ul li:nth-child(4) {
+    transform: rotate(90deg);
+}
+
+.landing .container .row .col-md-4 ul li:nth-child(5) {
+    transform: rotate(270deg) scaleX(-1);
+    margin-right: 11%;
+    margin-top: -10%;
+}
+
+.landing .carousel {
+    position: relative;
+    height: auto;
+}
+
+.landing .carousel .carousel-control-prev {
+    left: 120%;
+    margin-top: 55%;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    background-color: rgb(90, 251, 3);
+    z-index: 2;
+}
+
+.landing .carousel .carousel-control-prev:hover {
+    background-color: rgb(28, 30, 31);
+    z-index: 2;
+}
+
+.landing .carousel .carousel-control-next {
+    left: 120%;
+    margin-top: 42%;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    background-color: rgb(90, 251, 3);
+}
+
+.landing .carousel .carousel-control-next:hover {
+    background-color: rgb(28, 30, 31);
+}
+
+.landing .container .row .col-12 #carouselExampleCaptions .carousel-inner {
+    position: absolute;
+    padding-top: 22%;
+    right: 25%;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    position: relative;
+    z-index: 2;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h1 {
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 50px;
+    position: relative;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h1::after {
+    content: " ";
+    position: absolute;
+    height: 70px;
+    width: 0.3%;
+    top: 100%;
+    left: 50%;
+    background-color: black;
+    z-index: 2;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption .button {
+    margin-top: 12%;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: 39%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption .button:hover {
+    background-color: rgb(28, 30, 31);
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption .button a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+/* about section  */
+.about {
+    background-color: rgb(66, 177, 8);
+    height: auto;
+    min-height: 745px;
+    width: 100%;
+    position: relative;
+}
+
+.about .cover {
+    position: absolute;
+    background-color: black;
+    top: 20px;
+    width: 80%;
+    right: 0;
+}
+
+.about .cover h2 {
+    padding: 2%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about .cover .container .row .col-md-4 p {
+    color: #fff;
+    padding: 0 3%;
+    position: relative;
+    text-align: justify;
+}
+
+.about .cover .container .row .col-md-4 p::after {
+    content: " ";
+    height: 90%;
+    width: 0.5%;
+    background-color: #fff;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+}
+
+.about .cover .container .row .col-md-4 .button {
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50px;
+    box-shadow: rgba(66, 177, 8, 0.7) 0px 0x 35px 0px;
+    text-align: center;
+    margin-top: 60%;
+    margin-left: 30%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.about .cover .container .row .col-md-4 .button:hover {
+    background-color: rgb(28, 30, 31);
+}
+
+.about .cover .container .row .col-md-4 .button a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.container .row .col-md-8 img {
+    height: auto;
+    max-height: 600px;
+    width: 100%;
+    border-left: 2px solid #fff;
+}
+
+/* class videos section  */
+.class-videos {
+    background-color: rgb(66, 177, 8);
+    height: auto;
+    min-height: 745px;
+    width: 100%;
+}
+
+.class-videos .cover {
+    top: 20px;
+    width: 80%;
+    margin-left: 18%;
+}
+
+.class-videos .cover .content {
+    margin-bottom: 10px;
+    height: auto;
+    min-height: 100px;
+}
+
+.class-videos .cover .content h2 {
+    padding: 4% 3% 2%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.class-videos .cover .content p {
+    color: #fff;
+    padding-left: 3%;
+    font-size: 18px;
+    width: 55%;
+    height: auto;
+    min-height: 50px;
+    text-align: justify;
+}
+
+.class-videos .cover #carouselbutton #secondcontainer {
+    width: 100%;
+    height: 500px;
+}
+
+.class-videos .cover #carouselbutton {
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    right: 0;
+    top: 10%;
+    position: relative;
+}
+
+.class-videos .cover #carouselbutton #firstcontainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark {
+    height: 500px;
+    max-height: 500px;
+    width: 100%;
+    position: relative;
+    background-color: black;
+}
+
+.dark .circle {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: rgb(28, 30, 31);
+    bottom: 10%;
+    left: 1.5%;
+    cursor: pointer;
+}
+
+.dark img {
+    position: absolute;
+    height: 100%;
+    width: 82%;
+    right: 0;
+}
+
+.dark .carousel-caption {
+    position: absolute;
+    left: 7%;
+    top: 76%;
+}
+
+.dark .carousel-caption img {
+    height: 40px;
+    width: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    cursor: pointer;
+}
+
+.dark .carousel-caption h5 {
+    display: inline-block;
+    padding-right: 40%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-prev {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background-color: black;
+    left: 87%;
+    top: 48%;
+}
+
+.class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-next {
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: black;
+    right: 7%;
+    top: 35%;
+}
+
+.class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 83%;
+    margin-left: 65%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button:hover {
+    background-color: rgb(28, 30, 31);
+}
+
+.class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+/* latest blog section  */
+.latest-blog {
+    background-color: rgb(66, 177, 8);
+    height: auto;
+    min-height: 745px;
+    width: 100%;
+}
+
+.latest-blog .content {
+    top: 20px;
+    width: 80%;
+    margin-left: 18%;
+    margin-bottom: 10px;
+    height: auto;
+    min-height: 100px;
+}
+
+.latest-blog .content h2 {
+    padding: 4% 3% 1%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.latest-blog .content p {
+    color: #fff;
+    padding-left: 3%;
+    font-size: 18px;
+    width: 70%;
+    height: auto;
+    min-height: 50px;
+    text-align: justify;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: rgb(32, 35, 36);
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card img {
+    height: 50%;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .circle {
+    position: absolute;
+    background-color: rgb(66, 177, 8);
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    text-align: center;
+    top: 50%;
+    left: 20%;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .circle p {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 18%;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .card-body {
+    width: 85%;
+    padding-left: 20%;
+    padding-top: 10%;
+    color: #fff;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .card-body h1 {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .card-body p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .card-body .button {
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 10%;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .card-body .button:hover {
+    background-color: rgb(28, 30, 31);
+}
+
+.latest-blog .container-fluid .row .col-lg-6 .card .card-body .button a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+/* student review section  */
+.student-review {
+    background-color: rgb(66, 177, 8);
+    height: auto;
+    min-height: 745px;
+    width: 100%;
+}
+
+.student-review .content {
+    padding-top: 5%;
+    margin-bottom: 10px;
+    height: auto;
+    min-height: 100px;
+}
+
+.student-review .content h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.student-review .content p {
+    color: #fff;
+    font-size: 18px;
+    height: auto;
+    min-height: 50px;
+}
+
+.student-review #carouselExampleInterval {
+    height: 600px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.student-review #carouselExampleInterval .carousel-inner .carousel-item .container {
+    padding-top: 9%;
+    position: relative;
+}
+
+.student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card {
+    position: relative;
+    height: 400px;
+    border: none;
+}
+
+.student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body {
+    background-color: black;
+}
+
+.student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+    height: 150px;
+    position: absolute;
+    top: -18%;
+    left: 32%;
+}
+
+.student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+    position: absolute;
+    color: #fff;
+    top: 25%;
+    left: 40%;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+    position: absolute;
+    color: #fff;
+    top: 35%;
+    margin: 0 3%;
+    text-align: justify;
+}
+
+.student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+}
+
+.student-review #carouselExampleInterval .button .carousel-control-prev {
+    height: 60px;
+    width: 60px;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid #fff;
+    left: 43.5%;
+    top: 88%;
+}
+
+.student-review #carouselExampleInterval .button .carousel-control-next {
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    background-color: black;
+    border: 2px solid #fff;
+    right: 43.5%;
+    top: 88%;
+    filter: invert(100%);
+}
+
+/* contact us section  */
+.contact-us {
+    background-color: rgb(66, 177, 8);
+    height: auto;
+    min-height: 745px;
+    width: 100%;
+}
+
+.contact-us .cover {
+    padding-top: 5%;
+    width: 80%;
+    margin-left: 18%;
+    height: auto;
+}
+
+.contact-us .cover .content h2 {
+    padding: 4% 3% 2%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-us .cover .container-fluid {
+    right: 0;
+    top: 18%;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 img {
+    width: 100%;
+    height: 90%;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 form .mb-3 input {
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 form .mb-3 textarea {
+    background-color: black;
+    color: #fff;
+    border: none;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 form button {
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 7%;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 form button:hover {
+    background-color: rgb(28, 30, 31);
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .map {
+    padding-top: 3%;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .map iframe {
+    height: 300px;
+    width: 100%;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .social-links {
+    padding-top: 5%;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .social-links a img {
+    height: 30px;
+    width: 35px;
+    padding-left: 2%;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .social-links a:nth-child(1) img {
+    width: 25px;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .social-links a:nth-child(5) img {
+    width: 45px;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .right-reserved {
+    padding-top: 5%;
+}
+
+.contact-us .cover .container-fluid .row .col-md-6 .right-reserved p {
+    color: #fff;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    /* landing section  */
+    .first-cover {
+        height: 68.5%;
+    }
+
+    .second-cover {
+        height: 25%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-top: 15%;
+        margin-left: 36%;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 60%;
+    }
+
+    .landing .carousel .carousel-control-next {
+        margin-top: 45%;
+    }
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 p::after {
+        top: 108%;
+        height: 35%;
+    }
+
+    .about .cover .container .row .col-md-4 .button {
+        width: 120px;
+        margin-top: 35%;
+        margin-left: 31%;
+    }
+
+    /* class videos section  */
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        width: 120px;
+        margin-top: 97%;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        top: 45%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        top: -15%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        height: 60px;
+        width: 60px;
+        left: 43%;
+        top: 85%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        height: 60px;
+        width: 60px;
+        right: 43%;
+        top: 85%;
+    }
+
+    /* contact us section  */
+    .contact-us .cover .container-fluid .row .col-md-6 img {
+        height: 97%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* navbar section  */
+    .navbar .container .collapse ul li {
+        text-align: center;
+    }
+
+    .landing .container .row .col-12 ul {
+        margin-left: 50px;
+    }
+
+    .landing .container .row .col-md-4 {
+        margin-left: 20px;
+    }
+
+    /* landing section  */
+    .first-cover {
+        height: 72%;
+    }
+
+    .second-cover {
+        height: 22%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-top: 17%;
+        margin-left: 34%;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 65%;
+    }
+
+    .landing .carousel .carousel-control-next {
+        margin-top: 50%;
+    }
+
+    /* about section  */
+    .cover {
+        height: 85%;
+    }
+
+    .about {
+        height: auto;
+        min-height: 645px;
+    }
+
+    .about .cover .container .row .col-md-4 p::after {
+        top: 104%;
+        height: 27%;
+    }
+
+    .about .cover .container .row .col-md-4 .button {
+        margin-top: 40%;
+        margin-left: 27%;
+    }
+
+    /* class videos section  */
+    .class-videos .cover .content p {
+        width: 70%;
+    }
+
+    .dark img {
+        position: absolute;
+        height: 100%;
+        width: 78%;
+        right: 0;
+    }
+
+    .dark .carousel-caption {
+        left: 8.5%;
+        top: 77%;
+    }
+
+    .dark .carousel-caption img {
+        height: 30px;
+        width: 25px;
+    }
+
+    .dark .carousel-caption h5 {
+        padding-right: 30%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 127%;
+        margin-left: 58%;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        top: 35%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        height: 570px;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container {
+        padding-top: 10%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        height: 120px;
+        left: 29%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+        top: 17%;
+        left: 35%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 25%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        height: 50px;
+        width: 50px;
+        left: 42.5%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        height: 50px;
+        width: 50px;
+        right: 42.5%;
+    }
+
+    /* contact us section  */
+    .contact-us .cover .container-fluid .row .col-md-6 form button {
+        width: 120px;
+        margin-top: 4%;
+    }
+
+    .contact-us .cover .container-fluid .row .col-md-6 .map iframe {
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 912px) {
+
+    /* landing section  */
+    .landing .container .row .col-md-4 ul li {
+        font-size: 140px;
+    }
+
+    .landing .carousel {
+        margin-top: 33%;
+    }
+
+    .first-cover {
+        height: 60%;
+    }
+
+    .second-cover {
+        height: 30%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-top: 22%;
+        margin-left: 28%;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 80%;
+    }
+
+    .landing .carousel .carousel-control-next {
+        margin-top: 60%;
+    }
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 p::after {
+        height: 16%;
+    }
+
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 25%;
+    }
+
+    .container .row .col-md-8 img {
+        height: 370px;
+    }
+
+    /* class videos section  */
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        height: 30px;
+        margin-top: 120%;
+        margin-left: 60%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button a {
+        line-height: 30px;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        height: 70px;
+        width: 70px;
+        top: 64%;
+        left: 10%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body {
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body .button {
+        height: 35px;
+        width: 120px;
+        margin-top: 5%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body .button a {
+        line-height: 35px;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        height: 540px;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container {
+        padding-top: 13%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card {
+        height: 400px;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        height: 100px;
+        left: 25%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+        top: 10%;
+        left: 25%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 18%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        bottom: 3%;
+        left: 45%;
+        height: 40px;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        height: 50px;
+        width: 50px;
+        left: 41.5%;
+        top: 94%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        height: 50px;
+        width: 50px;
+        right: 41.5%;
+        top: 94%;
+    }
+
+}
+
+@media screen and (max-width: 854px) {
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 23%;
+    }
+
+    /* class videos section  */
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        height: 35px;
+        width: 120px;
+        margin-top: 130%;
+        margin-left: 55%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        left: 33%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        height: 40px;
+        bottom: 5%;
+        left: 42%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+        top: 12%;
+        left: 33%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 22%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        height: 60px;
+        width: 60px;
+        top: 95%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        height: 60px;
+        width: 60px;
+        top: 95%;
+    }
+}
+
+@media screen and (max-width: 821px) {
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 21%;
+    }
+
+    /* class videos section  */
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 137%;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        top: 62%;
+        left: 8%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* navbar section  */
+    .navbar .container .collapse ul li {
+        text-align: center;
+    }
+
+    /* landing section  */
+    .landing .container .row .col-md-4 ul li {
+        font-size: 120px;
+    }
+
+    .landing .carousel {
+        margin-top: 60px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1::after {
+        height: 50px;
+    }
+
+    .landing .container .row .col-md-4 {
+        padding-top: 10px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-top: 23%;
+        margin-left: 30%;
+    }
+
+    .first-cover {
+        height: 68%;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 84%;
+        height: 45px;
+        width: 45px;
+    }
+
+    .landing .carousel .carousel-control-next {
+        margin-top: 68%;
+        height: 45px;
+        width: 45px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        width: 120px;
+        margin-left: 33%;
+        margin-top: 17%;
+    }
+
+    /* about section  */
+    .cover {
+        height: 90%;
+    }
+
+    .about .cover .container .row .col-md-4 p::after {
+        top: 104%;
+        height: 13%;
+    }
+
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 17%;
+    }
+
+    .container .row .col-md-8 img {
+        height: 420px;
+    }
+
+    /* class videos section  */
+    .class-videos .cover .content p {
+        width: 85%;
+    }
+
+    .dark .circle {
+        height: 50px;
+        width: 50px;
+    }
+
+    .dark .carousel-caption {
+        top: 78%;
+    }
+
+    .dark .carousel-caption img {
+        height: 30px;
+        width: 25px;
+    }
+
+    .dark .carousel-caption h5 {
+        padding-right: 25%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 143%;
+        margin-left: 50%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button a {
+        line-height: 35px;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        top: 60%;
+        left: 10%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle p {
+        font-size: 18px;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body {
+        padding-top: 4%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body p {
+        font-size: 16px;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        height: 580px;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card {
+        height: 470px;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        left: 25%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        height: 20px;
+        bottom: 3%;
+        left: 45%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+        top: 10%;
+        left: 25%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 18%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        height: 40px;
+        width: 40px;
+        left: 42%;
+        top: 93%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        height: 40px;
+        width: 40px;
+        right: 42%;
+        top: 93%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        left: 42%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        right: 42%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* landing section  */
+    .landing .carousel {
+        margin-top: 0;
+    }
+
+    .first-cover {
+        height: 70%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1::after {
+        height: 70px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-left: 38%;
+        margin-top: 16%;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 60%;
+        left: 85%;
+        height: 45px;
+        width: 45px;
+    }
+
+    .landing .carousel .carousel-control-next {
+        margin-top: 49%;
+        left: 85%;
+        height: 45px;
+        width: 45px;
+    }
+
+    .landing .container .row .col-md-4 ul li {
+        font-size: 170px;
+    }
+
+    .landing .carousel {
+        margin-top: 0;
+    }
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 38%;
+        margin-top: 6%;
+        height: 30px;
+    }
+
+    .about .cover .container .row .col-md-4 .button a {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .container .row .col-md-8 img {
+        height: 330px;
+        border-left: none;
+        padding-top: 5%;
+    }
+
+    /* class videos section  */
+    .dark .circle {
+        height: 65px;
+        width: 65px;
+        bottom: 9%;
+        left: 4%;
+    }
+
+    .dark .carousel-caption {
+        left: 9%;
+    }
+
+    .dark .carousel-caption h5 {
+        padding-right: 40%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 80%;
+        margin-left: 72%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-prev {
+        height: 65px;
+        width: 65px;
+        left: 90%;
+        top: 50%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-next {
+        height: 50px;
+        width: 50px;
+        right: 5%;
+        top: 38%;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        top: 61%;
+        left: 5%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        height: 600px;
+        width: 72%;
+        margin-left: 28%;
+        margin-top: 1%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card {
+        height: 500px;
+        width: 380px;
+        right: 30%;
+        bottom: 5%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        height: 100px;
+        top: -5%;
+        left: 45%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+        top: 20%;
+        left: 45%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 28%;
+        font-size: 19px;
+        width: 300px;
+        margin-left: 14%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        height: 30px;
+        bottom: 5%;
+        left: 48%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        height: 50px;
+        width: 50px;
+        left: 18.5%;
+        top: 95%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        height: 50px;
+        width: 50px;
+        right: 65%;
+        top: 95%;
+    }
+
+    /* contact us section  */
+    .contact-us .cover .container-fluid .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contact-us .cover .container-fluid .row #col-form {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 541px) {
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 36%;
+        margin-top: 10%;
+    }
+
+    .container .row .col-md-8 img {
+        height: 270px;
+    }
+
+    /* class videos section  */
+    .dark .circle {
+        height: 50px;
+        width: 50px;
+        bottom: 10%;
+        left: 1.5%;
+    }
+
+    .dark .carousel-caption {
+        left: 6%;
+    }
+
+    .dark .carousel-caption h5 {
+        padding-right: 30%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 105%;
+        margin-left: 65%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-prev {
+        left: 82%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-next {
+        right: 7%;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        top: 50%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        height: 560px;
+        margin-left: 17%;
+        margin-top: 10%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card {
+        right: 20%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        left: 38%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        left: 30%;
+        top: 90%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        right: 48%;
+        top: 90%;
+    }
+}
+
+@media screen and (max-width: 431px) {
+
+    /* landing section  */
+    .landing {
+        min-height: 600px;
+    }
+
+    .first-cover {
+        height: 68%;
+    }
+
+    .second-cover {
+        height: 35%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1::after {
+        height: 70px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-left: 35%;
+        margin-top: 20%;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 64%;
+    }
+
+/* about section  */
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 32%;
+        margin-top: 13%;
+    }
+
+    .container .row .col-md-8 img {
+        height: 230px;
+    }
+
+    /* class videos section  */
+    .class-videos .cover #carouselbutton {
+        bottom: 7px;
+        /*  */
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-prev {
+        height: 60px;
+        width: 60px;
+    }
+
+    .dark .carousel-caption {
+        left: 8%;
+    }
+
+    .dark .carousel-caption h5 {
+        padding-right: 20%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 138%;
+        margin-left: 60%;
+        height: 30px;
+        width: 100px;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button a {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    /* latest blog section  */
+    .latest-blog {
+        padding-top: 7%;
+        padding-bottom: 7%;
+    }
+
+    .latest-blog .content p {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        height: 60px;
+        width: 60px;
+        left: 3%;
+        top: 41%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        margin-left: 12%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card {
+        width: 350px;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 30%;
+        font-size: 16px;
+        width: 300px;
+        margin-left: 5%;
+
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        height: 40px;
+        width: 40px;
+        left: 39%;
+        top: 88%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        height: 40px;
+        width: 40px;
+        right: 39%;
+        top: 88%;
+    }
+
+    /* contact us section  */
+    .contact-us .cover {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contact-us .cover .content h2 {
+        text-align: center;
+    }
+
+    .contact-us .cover .container-fluid .row .col-md-6 .social-links a img {
+        height: 25px;
+        width: 30px;
+        padding-left: 2%;
+    }
+
+    .contact-us .cover .container-fluid .row .col-md-6 .social-links a:nth-child(1) img {
+        width: 20px;
+    }
+
+    .contact-us .cover .container-fluid .row .col-md-6 .social-links a:nth-child(5) img {
+        width: 40px;
+    }
+
+    .contact-us .cover .container-fluid .row .col-md-6 .right-reserved p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    /* landing section  */
+    .landing {
+        min-height: 450px;
+    }
+
+    .first-cover {
+        height: 62%;
+    }
+
+    .second-cover {
+        height: 28%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 20px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 40px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1::after {
+        height: 50px;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        left: 80%;
+        margin-top: 60%;
+    }
+
+    .landing .carousel .carousel-control-next {
+        left: 80%;
+        margin-top: 45%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-top: 15%;
+    }
+
+    /* about section  */
+    .about .cover h2 {
+        padding: 5% 5% 2%;
+    }
+
+    .about .cover .container .row .col-md-4 p {
+        padding: 0 2%;
+        font-size: 14px;
+    }
+
+    .about .cover .container .row .col-md-4 p::after {
+        top: 104%;
+        height: 13%;
+    }
+
+    .about .cover .container .row .col-md-4 .button {
+        margin-top: 12%;
+    }
+
+    .container .row .col-md-8 img {
+        height: 300px;
+        padding-top: 10%;
+    }
+
+/* class videos section  */
+    .class-videos {
+        min-height: 300px;
+    }
+
+    .class-videos .cover #carouselbutton {
+        max-height: 350px;
+        /*  */
+    }
+
+    .class-videos .cover .content p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .class-videos .cover #carouselbutton #secondcontainer {
+        height: 300px;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark {
+        height: 300px;
+    }
+
+    .dark .circle {
+        height: 50px;
+        width: 50px;
+        bottom: 15%;
+    }
+
+    .dark img {
+        width: 78%;
+    }
+
+    .dark .carousel-caption {
+        left: 8%;
+        top: 65%;
+    }
+
+    .dark .carousel-caption h5 {
+        padding-right: 30%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 72%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-next {
+        top: 32%;
+    }
+
+    /* latest blog section  */
+    .latest-blog {
+        padding-top: 0;
+        padding-bottom: 7%;
+    }
+
+    .latest-blog .content p {
+        font-size: 16px;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card {
+        height: 400px;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        top: 43%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle p {
+        margin-top: 14%;
+        font-size: 15px;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body {
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body h1 {
+        font-size: 20px;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body p {
+        font-size: 14px;
+        margin-bottom: 2.5%;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body .button {
+        height: 30px;
+        width: 100px;
+        margin-top: 0;
+    }
+
+    .latest-blog .container-fluid .row .col-lg-6 .card .card-body .button a {
+        line-height: 30px;
+        font-size: 12px;
+    }
+
+    /* student review section  */
+    .student-review {
+        min-height: 550px;
+    }
+
+    .student-review .content {
+        padding: 0 1%;
+    }
+
+    .student-review .content p {
+        font-size: 16px;
+    }
+
+    .student-review #carouselExampleInterval {
+        height: 460px;
+        margin-left: 12%;
+        margin-top: 0;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card {
+        height: 350px;
+        width: 300px;
+        right: 0;
+        bottom: 0;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        top: -10%;
+        left: 34%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+        top: 18%;
+        left: 35%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        font-size: 15px;
+        width: 260px;
+        margin-left: 2%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        left: 45%;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    
+/* about section  */
+    .container .row .col-md-8 img {
+        height: 280px;
+    }
+
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 30%;
+    }
+
+    /* class videos section  */
+    .dark .circle {
+        height: 45px;
+        width: 45px;
+    }
+
+    .dark .carousel-caption {
+        top: 66%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 79%;
+        margin-left: 55%;
+    }
+
+/* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card {
+        height: 420px;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        font-size: 14px;
+        padding: 0 2px;
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    /* landing section  */
+    .landing {
+        min-height: 400px;
+    }
+
+    .first-cover {
+        height: 61%;
+    }
+
+    .second-cover {
+        height: 30%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 35px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1::after {
+        height: 40px;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 62%;
+    }
+
+    .landing .carousel .carousel-control-next {
+        margin-top: 46%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-left: 33%;
+        margin-top: 13%;
+    }
+
+/* about section  */
+    .container .row .col-md-8 img {
+        height: 270px;
+    }
+
+    /* class videos section  */
+    .class-videos .cover .content p {
+        font-size: 14px;
+    }
+
+    .dark img {
+        width: 75%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-prev {
+        height: 55px;
+        width: 55px;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-next {
+        height: 45px;
+        width: 45px;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        height: 50px;
+        width: 50px;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval {
+        margin-left: 8%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        height: 80px;
+        left: 35%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        font-size: 13px;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        height: 33px;
+        left: 42%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        left: 37.5%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        right: 37.5%;
+    }
+}
+
+@media screen and (max-width: 361px) {
+
+    /* landing section  */
+    .first-cover {
+        height: 63%;
+    }
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 .button {
+        margin-top: 14%;
+        margin-left: 28%;
+    }
+
+    .container .row .col-md-8 img {
+        height: 245px;
+    }
+
+    /* class videos section  */
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 90%;
+        margin-left: 51%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 26%;
+        font-size: 14px;
+        padding: 0 2px;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 344px) {
+
+    /* landing section  */
+    .first-cover {
+        height: 64%;
+    }
+
+    .second-cover {
+        height: 33%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-left: 35%;
+        height: 25px;
+        width: 100px;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button a {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 p::after {
+        top: 102%;
+        height: 10%;
+    }
+
+    .about .cover .container .row .col-md-4 .button {
+        margin-left: 26%;
+        margin-top: 15%;
+    }
+
+    /* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        left: 3%;
+        top: 39%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        height: 70px;
+        top: -8%;
+        left: 32%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body h4 {
+        left: 28%;
+        top: 15%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        height: 25px;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+
+    /* landing section  */
+    .first-cover {
+        height: 65%;
+    }
+
+    .second-cover {
+        height: 35%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption h1::after {
+        height: 35px;
+    }
+
+    .landing .carousel .carousel-control-prev {
+        margin-top: 67%;
+    }
+
+    .landing .carousel .carousel-control-next {
+        margin-top: 49%;
+    }
+
+    .carousel .carousel-inner .carousel-item .carousel-caption .button {
+        margin-left: 33%;
+    }
+
+    /* about section  */
+    .about .cover .container .row .col-md-4 .button {
+        margin-top: 15%;
+    }
+
+    /* class videos section  */
+    .dark .circle {
+        height: 40px;
+        width: 40px;
+        bottom: 13%;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-2 .button .carousel-control-prev {
+        height: 50px;
+        width: 50px;
+        left: 80%;
+    }
+
+    .dark .carousel-caption {
+        top: 70%;
+        left: 9%;
+    }
+
+    .dark .carousel-caption img {
+        height: 25px;
+        width: 20px;
+    }
+
+    .class-videos .cover #carouselbutton #firstcontainer .row .col-lg-10 .carousel-inner .carousel-item .container .row .col-md-6 .dark .button {
+        margin-top: 105%;
+        margin-left: 55%;
+        width: 80px;
+    }
+
+    .class-videos .cover .content p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+/* latest blog section  */
+    .latest-blog .container-fluid .row .col-lg-6 .card .circle {
+        height: 50px;
+        width: 50px;
+        left: 2%;
+        top: 38%;
+    }
+
+    /* student review section  */
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #student-pic {
+        left: 30%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body p {
+        top: 24%;
+        width: 68%;
+    }
+
+    .student-review #carouselExampleInterval .carousel-inner .carousel-item .container .row .col-6 .card .card-body #quote {
+        left: 33%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-prev {
+        left: 36%;
+    }
+
+    .student-review #carouselExampleInterval .button .carousel-control-next {
+        right: 36%;
+    }
+}
