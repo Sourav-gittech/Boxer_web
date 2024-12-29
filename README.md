@@ -10,3 +10,5 @@ Blog/News: Updates on events, boxing tips, and success stories from members.
 Technologies Used
 Frontend: HTML, CSS, Bootstrap
 Hosting: Deployed on github
+
+Navigate to https://sourav-gittech.github.io/Boxer_web/ in your browser.
